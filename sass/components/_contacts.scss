@@ -1,0 +1,85 @@
+.header_list {
+    display: flex;
+}
+
+.header_item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header_contacts {
+    color: $secondary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2px;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+    &:hover,
+    &:focus {
+        color: $accent-color;
+        }
+   
+}
+
+// .header_contacts:hover,
+// .header_contacts:focus {
+//     color: $accent-color;
+// }
+
+.header_contacts:hover .header_contacts-icon,
+.header_contacts:focus .header_contacts-icon {
+    fill: $accent-color;
+    stroke: $accent-color;
+}
+
+.header_contacts-icon {
+    fill: $secondary-text-color;
+    stroke: $secondary-text-color;
+    margin-right: 10px;
+    transition-property: fill, stroke;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            fill: $accent-color;
+            stroke: $accent-color;
+        }
+}
+
+// .header_contacts-icon:hover,
+// .header_contacts-icon:focus {
+//     fill: $accent-color;
+//     stroke: $accent-color;
+// }
+
+.footer_contacts:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer_items-contacts {
+    color: $footer-text-color;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 9px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            color: $accent-color;
+        }
+}
+
+// .footer_items-contacts:hover,
+// .footer_items-contacts:focus {
+//     color: $accent-color;
+// }

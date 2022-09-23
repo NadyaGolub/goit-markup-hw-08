@@ -1,0 +1,38 @@
+.header_logo-web {
+    color:$accent-color;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    margin-right: 93px;
+}
+
+.header_logo-studio {
+    color: $logo-text-color;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+// FOOTER
+
+.footer_logo-web {
+    color: $accent-color;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer_logo-studio {
+    color: $primary-text-color;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
