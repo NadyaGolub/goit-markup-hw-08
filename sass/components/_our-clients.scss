@@ -1,4 +1,4 @@
-.clients_title {
+.clients__title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -7,15 +7,13 @@
   margin-bottom: 50px;
 }
 
-.clients_brand-icons {
-  display: flex;
-  justify-content: center;
+.clients__brand-icons {
+ 
   gap: 30px;
 }
 
-.clients_partners-icon {
-  display: flex;
-  align-items: center;
+.clients__partners-icon {
+  
   justify-content: center;
   width: 170px;
   height: 92px;
@@ -35,7 +33,7 @@
 //   border-color: #2196f3;
 // }
 
-.clients_socials-icon {
+.clients__socials-icon {
   fill: $icons-color;
   transition-property: fill;
   transition-duration: 250ms;
@@ -52,8 +50,8 @@
 //   fill: $accent-color;
 // }
 
-.clients_partners-icon:hover .clients_socials-icon,
-.clients_partners-icon:focus .clients_socials-icon {
+.clients__partners-icon:hover .clients__socials-icon,
+.clients__partners-icon:focus .clients__socials-icon {
   fill: $accent-color;
   border-color: $accent-color;
 }

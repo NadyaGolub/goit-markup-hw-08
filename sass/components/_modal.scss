@@ -34,7 +34,7 @@
     padding: 40px;
 }
 
-.modal_btn {
+.modal__btn {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -64,7 +64,7 @@
 //     cursor: pointer;
 // }
 
-.modal_title {
+.modal__title {
     margin-bottom: 12px;
     font-style: normal;
     font-weight: 700;
@@ -73,21 +73,21 @@
     text-align: center;
 }
 
-.form_item {
+.form__item {
     position: relative;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
 }
 
-.form_icon {
+.form__icon {
     position: absolute;
     bottom: 11px;
     left: 12px;
     fill: #212121;
 }
 
-.form_item input {
+.form__item input {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -97,19 +97,19 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form_item input:hover+.form_icon,
-.form_item input:focus+.form_icon {
+.form__item input:hover+.form__icon,
+.form__item input:focus+.form__icon {
     fill: $accent-color;
 }
 
-.form_item input:hover,
-.form_item input:focus {
+.form__item input:hover,
+.form__item input:focus {
     border: 1px solid #2196f3;
     border-radius: 4px;
     cursor: pointer;
 }
 
-.form_item textarea {
+.form__item textarea {
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -136,14 +136,14 @@ textarea::placeholder {
     color: rgba(117, 117, 117, 0.5);
 }
 
-.form_item textarea:hover,
-.form_item textarea:focus {
+.form__item textarea:hover,
+.form__item textarea:focus {
     border: 1px solid #2196f3;
     border-radius: 4px;
     cursor: pointer;
 }
 
-.form_list label {
+.form__list label {
     color: #757575;
     font-style: normal;
     font-weight: 400;
@@ -153,14 +153,14 @@ textarea::placeholder {
     margin-bottom: 4px;
 }
 
-.form_conditions {
+.form__conditions {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
 }
 
-.form_conditions label {
+.form__conditions label {
     color: #757575;
     font-style: normal;
     font-weight: 400;
@@ -169,12 +169,12 @@ textarea::placeholder {
     margin: 0;
 }
 
-.form_conditions input {
+.form__conditions input {
     margin-right: 7px;
 }
 
 
-.form_icon-check {
+.form__icon-check {
     display: inline-block;
     margin-right: 7px;
     width: 16px;
@@ -183,7 +183,7 @@ textarea::placeholder {
     border-radius: 2px;
 }
 
-.checkbox:checked+.form_icon-check {
+.checkbox:checked+.form__icon-check {
     background-color: $accent-color;
     border-color: $accent-color;
 
@@ -197,13 +197,13 @@ textarea::placeholder {
     align-items: center;
 }
 
-.form_contract {
+.form__contract {
     color: $accent-color;
     text-decoration: underline;
     padding-left: 2px;
 }
 
-.form_button-application {
+.form__button-application {
     color: #ffffff;
     font-style: normal;
     font-family: inherit;
@@ -231,7 +231,7 @@ textarea::placeholder {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form_button-application:hover,
-.form_button-application:focus {
+.form__button-application:hover,
+.form__button-application:focus {
     background-color: #188ce8;
 }

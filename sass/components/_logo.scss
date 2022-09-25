@@ -1,4 +1,4 @@
-.header_logo-web {
+.header__logo-web {
     color:$accent-color;
     text-decoration: none;
     font-family: 'Raleway';
@@ -8,7 +8,7 @@
     margin-right: 93px;
 }
 
-.header_logo-studio {
+.header__logo-studio {
     color: $logo-text-color;
     font-family: 'Raleway';
     font-weight: 700;
@@ -18,7 +18,7 @@
 
 // FOOTER
 
-.footer_logo-web {
+.footer__logo-web {
     color: $accent-color;
     text-decoration: none;
     font-family: 'Raleway';
@@ -29,7 +29,7 @@
     margin-bottom: 20px;
 }
 
-.footer_logo-studio {
+.footer__logo-studio {
     color: $primary-text-color;
     font-family: 'Raleway';
     font-weight: 700;

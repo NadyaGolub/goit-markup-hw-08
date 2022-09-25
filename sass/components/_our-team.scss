@@ -4,7 +4,7 @@
   padding-bottom: 94px;
 }
 
-.team_title {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -12,24 +12,24 @@
   margin-bottom: 50px;
 }
 
-.team_list {
-  display: flex;
+.team__list {
+ 
   gap: 30px;
 }
 
-.team_item {
+.team__item {
   background-color: $primary-text-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team_image {
+.team__image {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team_name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -37,7 +37,7 @@
   margin-bottom: 10px;
 }
 
-.team_profession {
+.team__profession {
   color: $secondary-text-color;
   font-size: 16px;
   line-height: 1.2;
@@ -45,14 +45,14 @@
   margin-bottom: 16px;
 }
 
-.team_socials-list {
-  display: flex;
+.team__socials-list {
+ 
   gap: 10px;
   justify-content: center;
 }
 
-.team_socials-link {
-  display: flex;
+.team__socials-link {
+  
   align-items: center;
   justify-content: center;
   width: 44px;
@@ -73,11 +73,11 @@
 //   background-color: $accent-color;
 // }
 
-.team_socials-link:hover .team_socials-icon,
-.team_socials-link:focus .team_socials-icon {
+.team__socials-link:hover .team__socials-icon,
+.team__socials-link:focus .team__socials-icon {
   fill: $primary-text-color;
 }
 
-.team_socials-icon {
+.team__socials-icon {
   fill: $icons-color;
 }

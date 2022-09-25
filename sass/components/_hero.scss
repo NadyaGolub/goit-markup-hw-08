@@ -5,13 +5,17 @@
         url(../images/studio/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1600px;
+    
+    
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+
+  
+    
 }
 
-.hero_title {
+.hero__title {
     color: $primary-text-color;
     font-weight: 900;
     font-size: 44px;
@@ -22,7 +26,7 @@
     margin-bottom: 30px;
 }
 
-.hero_button-primary {
+.hero__button-primary {
     background-color: $accent-color;
     color: $primary-text-color;
     font-family: inherit;

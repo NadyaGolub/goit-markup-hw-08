@@ -1,15 +1,15 @@
-.filter_list {
+.filter__list {
   align-items: center;
-  display: flex;
+  
   justify-content: center;
   margin-bottom: 56px;
 }
 
-.filter_item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.filter_button {
+.filter__button {
   background-color: #f5f4fa;
   color: $title-text-color;
   font-family: inherit;
