@@ -5,7 +5,13 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    margin-right: 93px;
+    
+    padding: 15px;
+
+    @media screen and (min-width: 768px) {
+       padding: 26px 0; 
+       margin-right: 88px;
+    }
 }
 
 .header__logo-studio {

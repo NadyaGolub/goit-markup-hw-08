@@ -91,7 +91,13 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  margin-right: 93px;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .header__logo-web {
+    padding: 26px 0;
+    margin-right: 88px;
+  }
 }
 
 .header__logo-studio {
@@ -123,6 +129,19 @@ body {
 
 .nav {
   margin-right: auto;
+}
+@media screen and (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .nav__item:not(:last-child) {
@@ -166,6 +185,9 @@ body {
   margin-top: 28px;
   background-color: #2196f3;
   border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   cursor: pointer;
 }
@@ -187,8 +209,27 @@ body {
   color: #2196f3;
 }
 
+@media screen and (max-width: 767px) {
+  .header__list {
+    display: none;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .header__item:not(:last-child) {
-  margin-right: 50px;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .header__item:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .header__contacts {
@@ -197,17 +238,24 @@ body {
   font-size: 14px;
   line-height: 1.2px;
   letter-spacing: 0.02em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 32px;
-  padding-top: 32px;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1200px) {
+  .header__contacts {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
 }
 .header__contacts:hover, .header__contacts:focus {
   color: #2196f3;
@@ -330,7 +378,9 @@ body {
 }
 
 .hero {
-  max-width: 1600px;
+  max-width: 480px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   background-color: #2f303a;
   background-position: center;
   background-repeat: no-repeat;
@@ -348,6 +398,7 @@ body {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/studio/HeaderTablet\ img.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/HeaderTablet\ img.jpg);
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
@@ -366,6 +417,7 @@ body {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/studio/HeaderDexTop@2x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/HeaderDexTop@2x.jpg);
+    max-width: 1600px;
   }
 }
 

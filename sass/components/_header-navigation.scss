@@ -1,10 +1,19 @@
 .nav {
     margin-right: auto;
+
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 }
 
-// .nav__list {
-//     display: flex;
-// }
+.nav__list {
+    @media screen and (min-width: 768px) {
+    display: flex;
+    }
+    
+
+
+}
 
 .nav__item:not(:last-child) {
     margin-right: 50px;
@@ -16,6 +25,7 @@
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+
     padding-bottom: 32px;
     padding-top: 32px;
     
@@ -52,7 +62,7 @@ color: $accent-color;
     margin-top: 28px;
     background-color: $accent-color;
     border-radius: 2px;
-    
+    display: flex;
     position: absolute;
     cursor: pointer;
 }
