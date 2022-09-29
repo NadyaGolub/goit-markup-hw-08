@@ -2,11 +2,50 @@
   background-color: $brand-color;
   padding-top: 60px;
   padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    
+  }
+ 
+  
+  
 }
 
+.footer__contacts-box {
+  margin-bottom: 60px;
+
+@media screen and (max-width: 1199px) {
+  text-align: center;
+}
+
+}
+
+.footer__test {
+  @media screen and (min-width: 768px) {
+    display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+  }
+
+     @media screen and (min-width: 1200px) {
+       display: flex;
+       align-items: baseline;
+       gap: 70px;
+       margin-right: 93px;
+       
+  
+}
+}
 .footer__container {
- 
-  align-items: baseline;
+
+  
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+    
+  }
+  
 }
 
 .footer__address {
@@ -18,7 +57,14 @@
 }
 
 .footer__box {
-  margin-left: 70px;
+  margin-bottom: 60px;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+
+    
+    
 }
 
 .footer__title {
@@ -29,15 +75,28 @@
   line-height: 16px;
   text-transform: uppercase;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+    
+  }
 }
 
-.footer__icons {
   
+
+.footer__icons {
+  display: flex;
   gap: 10px;
+
+@media screen and (max-width: 767px) {
+    justify-content: center;
+  }
+
+  
 }
 
 .footer__socials-link {
-  
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
@@ -64,7 +123,14 @@
 }
 
 .subscription {
-  margin-left: auto;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+      justify-content: center;
+  }
+  
+  
+
 }
 
 .subscription__icon-mail {
@@ -84,6 +150,12 @@
 
   text-transform: uppercase;
   margin-bottom: 20px;
+
+
+@media screen and (max-width: 1199px) {
+  text-align: center;
+}
+
 }
 
 .subscription__button {
@@ -100,6 +172,7 @@
   padding-left: 28px;
   padding-right: 13px;
   display: flex;
+  
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -110,6 +183,13 @@
   transition-property: cursor;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  margin-right: auto;
+  
+
+  @media screen and (max-width: 1199px) {
+    margin-top: 60px;
+  }
 
   &:hover,
   &:focus {
@@ -124,7 +204,13 @@
 
 .subscription__form-text {
   
-  gap: 12px;
+  
+  
+  
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    gap: 12px;
+  }
 }
 
 .subscription__form-text input {
@@ -136,6 +222,7 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  
 }
 
 ::placeholder {

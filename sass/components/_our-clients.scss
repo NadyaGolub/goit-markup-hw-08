@@ -8,25 +8,55 @@
 }
 
 .clients__brand-icons {
- 
-  gap: 30px;
+ display: flex;
+flex-wrap: wrap;
+  margin: -15px;
+  
 }
 
 .clients__partners-icon {
-  
+  display: flex;
   justify-content: center;
-  width: 170px;
+  align-items: center;
+ 
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+
   &:hover,
   &:focus {
     border-color: #2196f3;
   }
 }
+
+
+.clients__item { 
+    @media screen and (min-width: 480px) {
+      width: calc((100% - 2*30px)/2);
+  
+      // width: calc((100%-кількість маржинів в рядку * значення маржина)/кількість елементів в рядку);
+      margin: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  width: calc((100% - 3*30px)/3);
+
+  // width: calc((100%-кількість маржинів в рядку * значення маржина)/кількість елементів в рядку);
+  margin: 15px;
+}
+@media screen and (min-width: 1200px) {
+  width: calc((100% - 6*30px)/6);
+
+  // width: calc((100%-кількість маржинів в рядку * значення маржина)/кількість елементів в рядку);
+  margin: 15px;
+}
+
+}
+
 
 // .clients_partners-icon:hover,
 // .clients_partners-icon:focus {
