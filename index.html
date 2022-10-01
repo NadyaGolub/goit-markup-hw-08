@@ -32,7 +32,7 @@
         </a>
 
         <!-- Контакти-->
-          <nav class="nav">
+        <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
               <a href="./index.html" class="nav__current"> Студія </a>
@@ -60,7 +60,7 @@
               +38 096 111 11 11
             </a>
           </li>
-        </ul> 
+        </ul>
         <button
           type="button"
           class="header__menu-button js-open-menu"
@@ -72,13 +72,12 @@
           </svg>
         </button>
       </div>
-      
     </header>
 
     <!-- Основний контент сторінки Студія -->
 
     <main>
-      <section class="hero ">
+      <section class="hero">
         <div class="container">
           <h1 class="hero__title">
             ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
@@ -237,9 +236,17 @@
             <li class="team__item">
               <img
                 class="team_photo"
-                src="./images/studio/Ihor.jpg"
+                srcset="
+                  ./images/studio/IhorDesktop-270@1x.jpg 270w,
+                  ./images/studio/IhorTablet-354@1x.jpg  354w,
+                  ./images/studio/IhorMobile-450@1x.jpg  450w,
+                  ./images/studio/IhorDesktop-540@2x.jpg 540w,
+                  ./images/studio/IhorTablet708@2x.jpg   708w,
+                  ./images/studio/IhorMobile-900@2x.jpg  900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/studio/IhorMobile-450@1x.jpg"
                 alt="Ігор Дем'яненко"
-                width="270"
               />
               <div class="team__image">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
@@ -304,9 +311,17 @@
             <li class="team__item">
               <img
                 class="team_photo"
-                src="./images/studio/Olga.jpg"
+                srcset="
+                  ./images/studio/OlgaDesktop-270@1x.jpg 270w,
+                  ./images/studio/OlgaTablet-354@1x.jpg  354w,
+                  ./images/studio/OlgaMobile-450@1x.jpg  450w,
+                  ./images/studio/OlgaDesktop-540@2x.jpg 540w,
+                  ./images/studio/OlgaTablet708@2x.jpg   708w,
+                  ./images/studio/OlgaMobile-900@2x.jpg  900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/studio/OlgaMobile-450@1x.jpg"
                 alt="Ольга Рєпіна"
-                width="270"
               />
               <div class="team__image">
                 <h3 class="team__name">Ольга Рєпіна</h3>
@@ -371,9 +386,17 @@
             <li class="team__item">
               <img
                 class="team_photo"
-                src="./images/studio/Mykola.jpg"
+                srcset="
+                  ./images/studio/NicholasDesktop-270@1x.jpg 270w,
+                  ./images/studio/NicholasTablet-354@1x.jpg  354w,
+                  ./images/studio/NicholasMobile-450@1x.jpg  450w,
+                  ./images/studio/NicholasDesktop-540@2x.jpg 540w,
+                  ./images/studio/NicholasTablet708@2x.jpg   708w,
+                  ./images/studio/NicholasMobile-900@2x.jpg  900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/studio/NicholasMobile-450@1x.jpg"
                 alt="Микола Тарасов"
-                width="270"
               />
               <div class="team__image">
                 <h3 class="team__name">Микола Тарасов</h3>
@@ -438,9 +461,17 @@
             <li class="team__item">
               <img
                 class="team_photo"
-                src="./images/studio/Mykhailo.jpg"
+                srcset="
+                  ./images/studio/MykhailoDesktop-270@1x.jpg 270w,
+                  ./images/studio/MykhailoTablet-354@1x.jpg  354w,
+                  ./images/studio/MykhailoMobile-450@1x.jpg  450w,
+                  ./images/studio/MykhailoDesktop-540@2x.jpg 540w,
+                  ./images/studio/MykhailoTablet708@2x.jpg   708w,
+                  ./images/studio/MykhailoMobile-900@2x.jpg  900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/studio/MykhailoMobile-450@1x.jpg"
                 alt="Михайло Єрмаков"
-                width="270"
               />
               <div class="team__image">
                 <h3 class="team__name">Михайло Єрмаков</h3>
@@ -704,43 +735,37 @@
       </button>
 
       <ul class="mobile-menu">
-            <li>
-              <a href="./index.html"> Студія </a>
-            </li>
-            <li class="nav__item">
-              <a href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="nav__item"><a href="" >Контакти</a></li>
-          </ul>
-        </nav>
-        <ul >
-          <li >
-            <a href="tel:+380961111111" >
-              
-              +38 096 111 11 11
-            </a>
-          </li>
-          <li >
-            <a href="mailto:info@devstudio.com" >
-              
-              info@devstudio.com
-            </a>
-          </li>
-          </ul> 
-          <ul class="mobile-socials">
-            <li>
-              <a href="https://instagram.com">Instagram</a>
-            </li>
-            <li>
-              <a href="https://twitter.com">Twitter</a>
-            </li>
-            <li>
-              <a href="https://facebook.com">Facebook</a>
-            </li>
-            <li>
-              <a href="https://linkedin.com">LinkedIn</a>
-            </li>
-          </ul>
+        <li class="mobile-menu__nav">
+          <a class="mobile-menu__text-active" href="./index.html"> Студія </a>
+        </li>
+        <li class="mobile-menu__nav">
+          <a class="mobile-menu__text" href="./portfolio.html">Портфоліо</a>
+        </li>
+        <li><a class="mobile-menu__text" href="">Контакти</a></li>
+      </ul>
+
+      <ul>
+        <li class="mobile-menu__nav">
+          <a class="mobile-menu__phone" href="tel:+380961111111"> +38 096 111 11 11 </a>
+        </li>
+        <li class="mobile-menu__link">
+          <a class="mobile-menu__mail" href="mailto:info@devstudio.com"> info@devstudio.com </a>
+        </li>
+      </ul>
+      <ul class="mobile-menu__socials">
+        <li class="mobile-menu__border">
+          <a class="mobile-menu__socials-link" href="https://instagram.com">Instagram</a>
+        </li>
+        <li class="mobile-menu__border">
+          <a class="mobile-menu__socials-link" href="https://twitter.com">Twitter</a>
+        </li>
+        <li class="mobile-menu__border">
+          <a class="mobile-menu__socials-link" href="https://facebook.com">Facebook</a>
+        </li>
+        <li>
+          <a class="mobile-menu__socials-link" href="https://linkedin.com">LinkedIn</a>
+        </li>
+      </ul>
     </div>
 
     <script src="./js/modal.js"></script>
