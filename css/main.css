@@ -1331,6 +1331,12 @@ textarea::placeholder {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .projects__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
 .projects__link {
   display: block;
   -webkit-transition-property: border, -webkit-box-shadow;

@@ -1,23 +1,19 @@
 .projects {
-  
-
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
 
     margin: -15px;
   }
-@media screen and (min-width: 1200px) {
-  display: flex;
-  flex-wrap: wrap;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
 
-  margin: -15px;
-}
-
+    margin: -15px;
+  }
 }
 
 .projects__item {
-  
   overflow: hidden;
   transition-property: box-shadow;
   transition-duration: 250ms;
@@ -35,12 +31,17 @@
   }
   // width: calc((100%-кількість маржинів в рядку * значення маржина)/кількість елементів в рядку);
 
-    @media screen and (min-width: 1200px) {
-      width: calc((100% - 3 * 30px) / 3);
-      margin: 15px;
-    }
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 3 * 30px) / 3);
+    margin: 15px;
+  }
 }
 
+.projects__item:not(:last-child) {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+}
 
 // .projects_item:hover,
 // .projects_item:focus {
