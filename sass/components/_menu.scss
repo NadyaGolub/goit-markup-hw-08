@@ -62,8 +62,12 @@
   margin-bottom: auto;
 }
 
+.mobile-menu__list {
+  margin-bottom: 64px;
+}
+
 .mobile-menu__nav {
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .mobile-menu__text-active {
@@ -101,9 +105,7 @@
   letter-spacing: 0.02em;
 }
 
-.mobile-menu__link {
-  padding-bottom: 64px;
-}
+
 
 .mobile-menu__mail {
   color: #757575;

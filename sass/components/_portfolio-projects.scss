@@ -1,5 +1,5 @@
 .projects {
-  align-items: center;
+  
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -17,7 +17,7 @@
 }
 
 .projects__item {
-  width: 370px;
+  
   overflow: hidden;
   transition-property: box-shadow;
   transition-duration: 250ms;

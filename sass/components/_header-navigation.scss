@@ -25,9 +25,7 @@
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-
-    padding-bottom: 32px;
-    padding-top: 32px;
+    display: block;
     
 }
 
@@ -42,6 +40,7 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
 
 &:hover,
 &:focus {

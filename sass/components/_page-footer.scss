@@ -13,8 +13,9 @@
 }
 
 .footer__contacts-box {
+@media screen and (max-width: 767px) {
   margin-bottom: 60px;
-
+}
 @media screen and (max-width: 1199px) {
   text-align: center;
 }
@@ -22,6 +23,10 @@
 }
 
 .footer__test {
+@media screen and (max-width: 1199px){
+  margin-bottom: 60px;
+}
+
   @media screen and (min-width: 768px) {
     display: flex;
       justify-content: space-around;
@@ -57,7 +62,7 @@
 }
 
 .footer__box {
-  margin-bottom: 60px;
+  
 
   @media screen and (max-width: 1199px) {
     text-align: center;
@@ -188,7 +193,7 @@
   
 
   @media screen and (max-width: 1199px) {
-    margin-top: 60px;
+    margin-top: 20px;
   }
 
   &:hover,
@@ -217,11 +222,16 @@
   background-color: $brand-color;
   color: rgba(255, 255, 255, 0.6);
   padding-left: 16px;
-  width: 358px;
+  width: 450px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+
+  @media screen  and (min-width: 1200px) {
+    width: 358px;
+     
+  }
   
 }
 
