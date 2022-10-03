@@ -163,6 +163,12 @@ body {
   letter-spacing: 0.02em;
   display: block;
 }
+@media screen and (min-width: 1200px) {
+  .nav a.nav__current {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+}
 
 .nav__current-title {
   color: #212121;
@@ -170,17 +176,22 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 32px;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
 }
 .nav__current-title:hover, .nav__current-title:focus {
   color: #2196f3;
+}
+@media screen and (min-width: 1200px) {
+  .nav__current-title {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
 }
 
 .nav__current::after {
@@ -209,9 +220,16 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
 }
 .nav__contacts:hover, .nav__contacts:focus {
   color: #2196f3;
+}
+@media screen and (min-width: 1200px) {
+  .nav__contacts {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -228,8 +246,10 @@ body {
   }
 }
 
-.header__item:not(:last-child) {
-  margin-bottom: 10px;
+@media screen and (max-width: 1199px) {
+  .header__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .header__item:not(:last-child) {
@@ -460,6 +480,8 @@ body {
 }
 
 .hero {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 480px;
   padding-top: 118px;
   padding-bottom: 118px;
@@ -1050,7 +1072,6 @@ textarea::placeholder {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .team__item {
@@ -1066,7 +1087,7 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 767px) {
-  .features__item:not(:last-child) {
+  .team__item:not(:last-child) {
     margin-bottom: 30px;
   }
 }
